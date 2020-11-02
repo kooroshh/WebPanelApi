@@ -90,7 +90,7 @@ class MainController extends Controller
         }
 
         $iv = openssl_random_pseudo_bytes(16, $secure);
-        $key = env('APP_KEY');
+        $key = env('APP_KEY_PRIV');
         $data = $iv . openssl_encrypt(json_encode($output), 'AES-128-CBC',$key , OPENSSL_RAW_DATA, $iv) . $key;
         if($output['User']['Status'] == "OK" || $output['User']['Status'] == "FirstUse"){
             //Cache::put("$username:$password",base64_encode($data),$expiresAt);

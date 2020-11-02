@@ -37,6 +37,7 @@ services:
       DB_DATABASE: webpanel
       DB_USERNAME: webpanel
       DB_PASSWORD: ula4fbla$FBUL
+      APP_KEY_PRIV: aFldBGqYTWq7knL8
       XDEBUG_CONFIG: remote_host=host.docker.internal
       PHP_IDE_CONFIG: serverName=localhost
   db:
