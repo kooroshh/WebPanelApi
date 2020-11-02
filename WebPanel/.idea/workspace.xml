@@ -1,470 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d685af7-0b5e-41bf-be3b-903dd3b758fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/WebPanel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.whitesource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Device.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DeviceController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PlatformController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PropertyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ServerController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ServiceController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SettingsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TagsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Platform.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Property.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ServerTag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Service.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Setting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Tag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Value.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_24_019401_platforms.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_24_020939_services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_24_021046_properties.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_24_021139_settings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_24_023003_servers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_24_023305_values.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_02_16_131429_tags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_02_16_131922_server_tags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_04_02_003541_servers_order_column.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_04_02_003909_services_order_column.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_04_02_030748_devices.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_05_18_233539_service_status.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_02_120350_service_recommendation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/accordion.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/accordion.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/ad.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/api.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/breadcrumb.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/button.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/card.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/checkbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/checkbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/colorize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/comment.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/container.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/dimmer.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/dimmer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/divider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/dropdown.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/dropdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/embed.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/embed.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/feed.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/flag.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/form.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/form.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/header.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/icon.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/image.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/input.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/item.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/label.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/list.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/loader.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/message.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/modal.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/modal.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/nag.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/nag.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/placeholder.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/popup.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/popup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/progress.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/progress.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/rail.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/rating.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/rating.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/reset.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/reveal.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/search.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/search.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/segment.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/shape.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/shape.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/sidebar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/sidebar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/site.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/site.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/state.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/statistic.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/step.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/sticky.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/sticky.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/tab.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/tab.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/table.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/transition.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/transition.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/video.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/video.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/visibility.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/visit.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/semantic.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/semantic.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/brand-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/brand-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/brand-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/brand-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/brand-icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/icons.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/outline-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/outline-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/outline-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/outline-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/outline-icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/images/flags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/svg/403.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/svg/404.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/svg/500.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/svg/503.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/devices/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/main.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/platforms/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/properties/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/servers/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/servers/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/servers/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/servers/list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/services/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/settings/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/tags/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.whitesource" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Console/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Device.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Exceptions/Handler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/DeviceController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/HomeController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/PlatformController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/PropertyController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/ServerController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/ServiceController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/SettingsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/TagsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Middleware/Authenticate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Middleware/TrimStrings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Middleware/TrustProxies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Platform.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Property.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Providers/AppServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Providers/AuthServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Providers/EventServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Server.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/ServerTag.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Service.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Setting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Tag.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Value.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../artisan" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootstrap/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootstrap/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/broadcasting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/cache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/filesystems.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/hashing.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/logging.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/queue.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/services.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/session.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/factories/UserFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2019_01_24_019401_platforms.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2019_01_24_020939_services.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2019_01_24_021046_properties.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2019_01_24_021139_settings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2019_01_24_023003_servers.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2019_01_24_023305_values.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2019_02_16_131429_tags.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2019_02_16_131922_server_tags.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2019_04_02_003541_servers_order_column.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2019_04_02_003909_services_order_column.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2019_04_02_030748_devices.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2019_05_18_233539_service_status.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/seeds/DatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/accordion.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/accordion.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/ad.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/api.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/breadcrumb.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/button.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/card.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/checkbox.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/checkbox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/colorize.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/comment.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/container.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/dimmer.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/dimmer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/divider.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/dropdown.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/dropdown.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/embed.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/embed.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/feed.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/flag.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/form.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/form.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/header.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/icon.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/image.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/input.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/item.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/label.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/list.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/loader.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/menu.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/message.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/modal.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/modal.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/nag.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/nag.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/placeholder.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/popup.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/progress.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/progress.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/rail.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/rating.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/rating.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/reset.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/reveal.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/search.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/search.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/segment.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/shape.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/shape.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/sidebar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/sidebar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/site.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/site.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/state.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/statistic.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/step.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/sticky.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/sticky.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/tab.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/tab.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/table.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/transition.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/transition.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/video.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/video.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/visibility.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/components/visit.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/semantic.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/semantic.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/brand-icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/brand-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/brand-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/brand-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/brand-icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/icons.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/outline-icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/outline-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/outline-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/outline-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/fonts/outline-icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/semantic/themes/default/assets/images/flags.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/svg/403.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/svg/404.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/svg/500.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/svg/503.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/web.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/lang/en/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/lang/en/pagination.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/lang/en/passwords.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/lang/en/validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/auth/login.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/auth/passwords/email.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/auth/passwords/reset.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/auth/register.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/auth/verify.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/devices/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/home.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/layouts/app.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/main.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/master.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/platforms/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/properties/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/servers/add.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/servers/edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/servers/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/servers/list.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/services/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/settings/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/tags/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../routes/channels.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../routes/console.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storage/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storage/app/public/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storage/framework/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storage/framework/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storage/framework/cache/data/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storage/framework/sessions/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storage/framework/testing/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storage/framework/views/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storage/logs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tests/CreatesApplication.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tests/Feature/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tests/TestCase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tests/Unit/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webpack.mix.js" beforeDir="false" />
-    </list>
+    <list default="true" id="2d685af7-0b5e-41bf-be3b-903dd3b758fb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -618,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604318256444</updated>
       <workItem from="1604318257505" duration="1666000" />
-      <workItem from="1604322428964" duration="4527000" />
+      <workItem from="1604322428964" duration="5188000" />
     </task>
     <servers />
   </component>
@@ -626,38 +163,54 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1604330920432">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1604330990186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330920432" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1604330920431">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330990186" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1604330990186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330920431" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1604330920431">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330990186" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1604330990186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330920431" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1604330920432">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330990186" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1604330990186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330920432" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604330937042">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330990186" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604330990186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330937042" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604330937042">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330990186" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604330990186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330937042" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604330937042">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330990186" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604330990186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330937042" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604330937042">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330990186" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604330990186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330937042" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330990186" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1604330990186">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330990186" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1604330990186">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330990186" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1604330990186">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330990186" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1604330990186">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604330990186" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604330763063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
