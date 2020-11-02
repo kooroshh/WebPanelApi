@@ -14,7 +14,10 @@
                             <div class="field">
                                 <label>{{$property->name}}</label>
                                 <input type="hidden" required name="property_id[]" value="{{$property->id}}" />
-                                <input @if($property->type == 0) type="text" @elseif($property->type == 1) type="number" @else type="checkbox" class="ui checkbox" @endif value="" name="property_value[]" placeholder="{{$property->name}}">
+                                @if($property->type == 2)
+                                    <input type="hidden" name="property_value[{{$property->id}}]" value="0" />
+                                @endif
+                                <input @if($property->type == 0) type="text" @elseif($property->type == 1) type="number" @else type="checkbox" class="ui checkbox" @endif name="property_value[{{$property->id}}]"  placeholder="{{$property->name}}">
                             </div>
                             @endforeach
                             <div class="field">

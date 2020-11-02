@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Property;
 use App\Server;
 use App\ServerTag;
 use App\Service;
@@ -45,16 +46,20 @@ class ServerController extends Controller
         $server->service_id = $request->get('service_id');
         $server->index = $request->get('index');
         $server->save();
-        $properties_ids = $request->get('property_id');
-        $properties_values = $request->get('property_value');
-        for($i = 0 ; $i < sizeof($properties_ids);$i++){
-            $id = $properties_ids[$i];
-            $value = $properties_values[$i];
-            $v = new Value();
-            $v->server_id = $server->id ;
-            $v->property_id = $id ;
-            $v->value = $value;
-            $v->save();
+        $property_values = $request->get('property_value');
+        foreach ($property_values as $k => $v){
+            $value = new Value();
+            $value->server_id = $server->id;
+            $value->property_id = $k;
+            $value->value = $v;
+            $value->save();
+            if($value->property->type == 2 ) {
+                if ($value->value == 'on')
+                    $value->value = 1;
+                else
+                    $value->value = 0;
+                $value->save();
+            }
         }
         if($tags != null ){
             foreach ($tags as $tag){
@@ -118,8 +123,8 @@ class ServerController extends Controller
                     $value->value = 1;
                 else
                     $value->value = 0;
-                $value->save();
             }
+            $value->save();
         }
         ServerTag::where('server_id',$id)->delete();
         $tags = $request->get('tags');

@@ -2,7 +2,7 @@ version: '3'
 services: 
   nginx:
     image: nginx:alpine
-    restart: unless-stopped
+    restart: always
     container_name: webserver
     tty: true
     volumes: 
@@ -15,6 +15,7 @@ services:
     ports:
       - "8000:80"
   php:
+    restart: always
     build: ./Docker/php74-ext
     volumes:
       - ./WebPanel:/var/www
