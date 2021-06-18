@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d685af7-0b5e-41bf-be3b-903dd3b758fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/WebPanel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebPanel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ServerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ServerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ServiceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ServiceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Server.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_18_233539_service_status.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_18_233539_service_status.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/servers/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/servers/add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/servers/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/servers/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/servers/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/servers/list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/services/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +188,8 @@
       <workItem from="1621718114352" duration="81000" />
       <workItem from="1621718645373" duration="4230000" />
       <workItem from="1622035409631" duration="2187000" />
-      <workItem from="1622462235661" duration="10189000" />
+      <workItem from="1622462235661" duration="10309000" />
+      <workItem from="1622580279510" duration="1706000" />
     </task>
     <servers />
   </component>
